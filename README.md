@@ -1,1 +1,2 @@
-# DripStore-Front
+# React + Vite
+
