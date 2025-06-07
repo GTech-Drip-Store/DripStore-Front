@@ -1,6 +1,7 @@
+import Carousel from "../components/Carousel/Carousel";
 
 export const Inicio = () => {
   return (
-    <h1 style={{textAlign: 'center'}}>Página de Início</h1>
+    <Carousel />
   );
 }
