@@ -1,4 +1,3 @@
-// src/components/Carousel/Slide.jsx
 export default function Slide({ title, description, image }) {
     return (
         <div className="slide-content">
