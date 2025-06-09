@@ -1,1 +1,1 @@
-# Drip Store-Front com a galera
+# Drip Store-Front
