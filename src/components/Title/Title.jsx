@@ -1,7 +1,7 @@
 import './Title.css'
 
 // Componente para os titulos menores da page em cor cinza
-export const Title = ({ children, width, height, margin, display, alignItems, justifyContent }) => {
+export const Title = ({ children, width, height, margin, display, justifyContent }) => {
     return (
         <div className="title-content"
             style={{
@@ -9,8 +9,7 @@ export const Title = ({ children, width, height, margin, display, alignItems, ju
                 height: height,
                 margin: margin,
                 display: display,
-                alignItems: alignItems,
-                justifyContent: justifyContent
+                justifyContent: justifyContent,
             }}
         >{children}</div>
     );

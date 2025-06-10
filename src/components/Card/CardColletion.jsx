@@ -5,12 +5,13 @@ import './CardColletion.css'
 export const CardColletion = () => {
     return (
         <>
-            <Title 
-            width={'17.688rem'}
-            height={'2.375rem'}
-            children={'Coleções em destaque'}
-            margin={'2.375rem 0 0 6.25rem'}
-            />
+            <Title
+                width={'17.688rem'}
+                height={'2.375rem'}
+                margin={'2.375rem 0 0 6.25rem'}
+            >
+                Coleções em destaque
+            </Title>
             <div className="card-colletion">
                 <Card
                     discount={"30% OFF"}
