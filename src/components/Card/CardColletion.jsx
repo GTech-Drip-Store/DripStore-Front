@@ -1,10 +1,16 @@
+import { Title } from "../Title/Title";
 import { Card } from "./Card";
 import './CardColletion.css'
 
 export const CardColletion = () => {
     return (
         <>
-            <div className="title-content">Coleções em destaque</div>
+            <Title 
+            width={'17.688rem'}
+            height={'2.375rem'}
+            children={'Coleções em destaque'}
+            margin={'2.375rem 0 0 6.25rem'}
+            />
             <div className="card-colletion">
                 <Card
                     discount={"30% OFF"}
