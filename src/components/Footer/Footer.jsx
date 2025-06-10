@@ -10,7 +10,7 @@ export const Footer = () => {
                     <span> Drip Store</span>
 
                     <p>Nos siga nas nossas redes e acompanhe nossos projetos</p>
-                    <p>balblablabla</p>
+                    <p>Digital College</p>
 
                     <img src="../../../public/facebook.svg"/>
                     <img src="../../../public/instagram.svg"/>
