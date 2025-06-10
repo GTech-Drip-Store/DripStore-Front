@@ -1,5 +1,6 @@
 import './Footer.css';
 
+// footer construção
 export const Footer = () => {
     return(
         <footer id='footer'>
