@@ -1,0 +1,4 @@
+.card-colletion{
+    flex-direction: row;
+    display: flex;
+}
