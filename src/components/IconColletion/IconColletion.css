@@ -1,0 +1,8 @@
+.box-colletion{
+    width: 44.5rem;
+    height: 8.625rem;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-around;
+}
