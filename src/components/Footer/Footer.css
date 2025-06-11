@@ -1,37 +1,82 @@
-#footer{
+quero que você deixe o .informações e o  .categorias lado a lado nesse css 
+
+#footer {
     align-items: center;
-    background-color: #1f1f1f;   
-    bottom: 0;
-    width: 100%;
+    background-color: #1f1f1f;
     color: white;
 }
 
-#footer .box-footer{
+.box-footer {
+    align-items: center;
+    background-color: #1f1f1f;
+    color: white;
+    border: 1px solid red;
     width: 100%;
-    height: 28.375rem;
+    min-height: 28.375rem;
     margin: 0 auto;
+    display: flex;
     justify-content: center;
 }
 
 .logo-footer {
-    height: 100%;
     width: 100%;
-    margin-left: 6.375rem ;
-    margin-top: 4.5rem ;
+    margin-left: 6.375rem;
+    margin-top: 4.5rem;
     font-size: 2.275rem;
     font-weight: 600;
+    flex-direction: column;
 }
 
-.logo-footer p{
-    color: aliceblue;
-    margin-top: 2.188rem ;  
-    font-size: 1rem;
-
-}
-
-.logo-footer img{
+.logo-footer img {
+    display: inline-block;
     margin-top: 2.5rem;
     margin-right: 1.15rem;
 }
 
+.teste {
+    font-size: 1rem;
+    line-height:1rem ;
+    font-weight: 400;
+    color: aliceblue;
+    margin-top: 2.188rem;
+}
 
+
+.informacoes{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left:38.25rem;
+    margin-top:7.625rem;
+    margin-right:43.313rem ;
+    margin-bottom:21rem ;
+}
+
+.informacoes #titulo-informacao{
+    margin-bottom: 1.75rem;
+}
+
+
+.categorias{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left:53.063rem ;
+    margin-top:4.5rem ;
+    margin-right: 30.938rem;
+    margin-bottom: 22rem;
+}
+
+.categorias #titulo-categoria{
+   margin-bottom: 1.75rem;
+}
+
+.contatos{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 69.563rem;
+    margin-top: 4.5rem;
+    margin-right:16rem ;
+    margin-bottom:22.5rem ;
+}
