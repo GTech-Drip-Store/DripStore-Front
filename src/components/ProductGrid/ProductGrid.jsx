@@ -1,6 +1,7 @@
 import { Title } from '../Title/Title';
 import './ProductGrid.css';
 
+
 export const ProductGrid = () => {
     return (
         <div className='box-content'>
