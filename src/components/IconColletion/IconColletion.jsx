@@ -2,6 +2,7 @@ import './IconColletion.css'
 import { Title } from "../Title/Title";
 import { Icon } from './Icon';
 
+//#b3b3b3
 export const IconColletion = () => {
     return (
         <>
@@ -17,29 +18,36 @@ export const IconColletion = () => {
 
             <div className="box-colletion">
                 <Icon
-                src={'../../src/assets/icons/iconTshirt.png'}
-                width={'4.938rem'}
-                height={'1.375rem'}
-                >Camisetas</Icon>
-                                <Icon
-                src={'../../src/assets/icons/iconCalcas.png'}
-                width={'3.188rem'}
-                height={'1.375rem'}
+                    srcDefault="../../src/assets/icons/IconTshirtDefault.svg"
+                    srcHover="../../src/assets/icons/IconTshirtHover.svg"
+                    width="4.938rem"
+                    height="1.375rem"
+                >
+                    Camisetas
+                </Icon>
+                <Icon
+                    srcDefault="../../src/assets/icons/iconPantsDefault.svg"
+                    srcHover="../../src/assets/icons/iconPantsHover.svg"
+                    width={'3.188rem'}
+                    height={'1.375rem'}
                 >Calças</Icon>
-                                <Icon
-                src={'../../src/assets/icons/iconCalcas.png'}
-                width={'2.875rem'}
-                height={'1.375rem'}
+                <Icon
+                    srcDefault="../../src/assets/icons/IconCapDefault.svg"
+                    srcHover="../../src/assets/icons/IconCapHover.svg"
+                    width={'2.875rem'}
+                    height={'1.375rem'}
                 >Bonés</Icon>
-                                <Icon
-                src={'../../src/assets/icons/iconHeadphones.png'}
-                width={'5.875rem'}
-                height={'1.375rem'}
+                <Icon
+                    srcDefault="../../src/assets/icons/IconHeadphoneDefault.svg"
+                    srcHover="../../src/assets/icons/IconHeadphoneHover.svg"
+                    width={'5.875rem'}
+                    height={'1.375rem'}
                 >Headphones</Icon>
-                                <Icon
-                src={'../../src/assets/icons/iconTenis.png'}
-                width={'2.5rem'}
-                height={'1.375rem'}
+                <Icon
+                    srcDefault="../../src/assets/icons/IconShoeDefault.svg"
+                    srcHover="../../src/assets/icons/IconShoeHover.svg"
+                    width={'2.5rem'}
+                    height={'1.375rem'}
                 >Tênis</Icon>
             </div>
         </>
