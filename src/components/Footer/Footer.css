@@ -1,10 +1,6 @@
-quero que você deixe o .informações e o  .categorias lado a lado nesse css 
 
-#footer {
-    align-items: center;
-    background-color: #1f1f1f;
-    color: white;
-}
+
+
 
 .box-footer {
     align-items: center;
@@ -43,13 +39,10 @@ quero que você deixe o .informações e o  .categorias lado a lado nesse css
 
 
 .informacoes{
-    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
     font-size: 1rem;
     font-weight: 400;
-    margin-left:38.25rem;
-    margin-top:7.625rem;
-    margin-right:43.313rem ;
-    margin-bottom:21rem ;
 }
 
 .informacoes #titulo-informacao{
@@ -58,13 +51,10 @@ quero que você deixe o .informações e o  .categorias lado a lado nesse css
 
 
 .categorias{
-    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
     font-size: 1rem;
     font-weight: 400;
-    margin-left:53.063rem ;
-    margin-top:4.5rem ;
-    margin-right: 30.938rem;
-    margin-bottom: 22rem;
 }
 
 .categorias #titulo-categoria{
@@ -72,11 +62,12 @@ quero que você deixe o .informações e o  .categorias lado a lado nesse css
 }
 
 .contatos{
-    font-family: 'Inter', sans-serif;
+   display: flex;
+    flex-direction: column;
     font-size: 1rem;
     font-weight: 400;
-    margin-left: 69.563rem;
-    margin-top: 4.5rem;
-    margin-right:16rem ;
-    margin-bottom:22.5rem ;
+}
+
+.contatos #titulo-contato{
+    margin-bottom: 1.75rem;
 }
