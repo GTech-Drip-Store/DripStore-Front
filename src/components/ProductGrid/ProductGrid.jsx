@@ -4,7 +4,7 @@ import './ProductGrid.css';
 
 export const ProductGrid = () => {
     return (
-        <div className='box-content'>
+        <>
             <div className='box-title'>
                 <Title>
                     Produtos em destaque
@@ -16,11 +16,20 @@ export const ProductGrid = () => {
                         color={'#C92071'}
                     ></Useful>
 
-                    <img src='../../src/assets/icons/IconArrow.png'/>
+                    <img src='../../src/assets/icons/IconArrow.png' />
+                </div>
+            </div>
+
+            <div className='box-grid-items'>
+                <div className='items-top'>
+                    <p>Items Acima</p>
                 </div>
 
-
+                <div className='items-bottom'>
+                    <p>Item abaixo</p>
+                </div>
             </div>
-        </div>
+
+        </>
     );
 };
