@@ -1,0 +1,75 @@
+.box-card {
+    border: 2px solid rgb(255, 0, 247);
+    width: 18.25rem;
+    height: 27.438rem;
+}
+
+.box-card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18.25rem;
+    height: 20.063rem;
+    border: 1px solid black;
+    background-color: #f8f4f4;
+    border-radius: 0.25rem;
+}
+
+.box-card-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.box-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.category-content {
+    height: 1.5rem;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    color: #8F8F8F;
+    letter-spacing: 0.047rem;
+}
+
+.category-title {
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.375rem;
+    letter-spacing: 0.047rem;
+    color: #474747;
+}
+
+.box-price-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.price-old {
+    height: 2.375rem;
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.375rem;
+    letter-spacing: 0.047rem;
+    color: #8F8F8F;
+    text-decoration: line-through;
+}
+
+.price-new {
+    width: 3.938rem;
+    height: 2.375rem;
+    margin: 0 0 0 0.5rem;
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #1F1F1F;
+    line-height: 2.375rem;
+    letter-spacing: 0.047rem;
+}

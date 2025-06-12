@@ -1,5 +1,6 @@
 import { Title } from '../Title/Title';
 import { Useful } from '../Useful/Useful';
+import { Product } from './Product';
 import './ProductGrid.css';
 
 export const ProductGrid = () => {
@@ -22,7 +23,31 @@ export const ProductGrid = () => {
 
             <div className='box-grid-items'>
                 <div className='items-top'>
-                    <p>Items Acima</p>
+                    <Product
+                        imageUrl={'../../src/assets/tenisGrid.png'}
+                        categoryValue={'Tênis'}
+                        titleValue={'K-Swiss V8 - Masculino'}
+                        priceOld={'R$400'}
+                        priceNew={'R$59,99'}
+                    />
+                    <Product
+                        categoryValue={'Camisas'}
+                        titleValue={'Oversized Supreme'}
+                        priceOld={'R$129,99'}
+                        priceNew={'R$99,99'}
+                    />
+                    <Product
+                        categoryValue={'Fones de ouvido'}
+                        titleValue={'Headphone V1'}
+                        priceOld={'R$80'}
+                        priceNew={'R$49,99'}
+                    />
+                    <Product
+                        categoryValue={'Chapéus'}
+                        titleValue={'Boné Nike Night'}
+                        priceOld={'R$180,45'}
+                        priceNew={'R$99,99'}
+                    />
                 </div>
 
                 <div className='items-bottom'>
