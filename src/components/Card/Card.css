@@ -1,0 +1,59 @@
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 28rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.badge {
+  background-color: #D6FF55;
+  color: #000;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 1rem;
+  width: fit-content;
+}
+
+.card-title {
+  font-size: 2rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  word-spacing: 0.063rem;
+  white-space: pre-line;
+  color: #1F1F1F;
+  margin: 0.75rem 0;
+}
+
+.card-right {
+  position: relative;
+  flex-shrink: 0;
+  width: 12rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.card-image {
+  position: absolute;
+  right: -1.5rem;
+  bottom: -1rem;
+  height: 12rem;
+  object-fit: contain;
+  transform: rotate(2deg);
+}
