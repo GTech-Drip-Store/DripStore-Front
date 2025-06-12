@@ -24,25 +24,28 @@ export const ProductGrid = () => {
             <div className='box-grid-items'>
                 <div className='items-top'>
                     <Product
-                        imageUrl={'../../src/assets/tenisGrid.png'}
+                        imageUrl={'../../src/assets/tenis.png'}
                         categoryValue={'Tênis'}
                         titleValue={'K-Swiss V8 - Masculino'}
                         priceOld={'R$400'}
                         priceNew={'R$59,99'}
                     />
                     <Product
+                        imageUrl={'../../src/assets/tenis.png'}
                         categoryValue={'Camisas'}
                         titleValue={'Oversized Supreme'}
                         priceOld={'R$129,99'}
                         priceNew={'R$99,99'}
                     />
                     <Product
+                        imageUrl={'../../src/assets/tenis.png'}
                         categoryValue={'Fones de ouvido'}
                         titleValue={'Headphone V1'}
                         priceOld={'R$80'}
                         priceNew={'R$49,99'}
                     />
                     <Product
+                        imageUrl={'../../src/assets/tenis.png'}
                         categoryValue={'Chapéus'}
                         titleValue={'Boné Nike Night'}
                         priceOld={'R$180,45'}
@@ -51,7 +54,34 @@ export const ProductGrid = () => {
                 </div>
 
                 <div className='items-bottom'>
-                    <p>Item abaixo</p>
+                    <Product
+                        imageUrl={'../../src/assets/tenis.png'}
+                        categoryValue={'Tênis'}
+                        titleValue={'K-Swiss V8 - Masculino'}
+                        priceOld={'R$400'}
+                        priceNew={'R$59,99'}
+                    />
+                    <Product
+                        imageUrl={'../../src/assets/tenis.png'}
+                        categoryValue={'Camisas'}
+                        titleValue={'Oversized Supreme'}
+                        priceOld={'R$129,99'}
+                        priceNew={'R$99,99'}
+                    />
+                    <Product
+                        imageUrl={'../../src/assets/tenis.png'}
+                        categoryValue={'Fones de ouvido'}
+                        titleValue={'Headphone V1'}
+                        priceOld={'R$80'}
+                        priceNew={'R$49,99'}
+                    />
+                    <Product
+                        imageUrl={'../../src/assets/tenis.png'}
+                        categoryValue={'Chapéus'}
+                        titleValue={'Boné Nike Night'}
+                        priceOld={'R$180,45'}
+                        priceNew={'R$99,99'}
+                    />
                 </div>
             </div>
 

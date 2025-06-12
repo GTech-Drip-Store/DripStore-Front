@@ -26,13 +26,11 @@
     height: 57.375rem;
     width: 77.5rem;
     display: flex;
-    border: 2px solid red;
     margin: 1.25rem 6.25rem 1.25rem;
     flex-direction: column;
 }
 
 .items-top {
-    border: 2px solid rgb(0, 255, 106);
     height: 27.438rem;
     display: flex;
     flex-direction: row;
@@ -40,7 +38,9 @@
 }
 
 .items-bottom {
-    border: 2px solid rgb(0, 26, 255);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
     height: 27.438rem;
     margin: 2.5rem 0 0 0;
 }

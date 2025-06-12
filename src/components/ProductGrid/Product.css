@@ -1,5 +1,4 @@
 .box-card {
-    border: 2px solid rgb(255, 0, 247);
     width: 18.25rem;
     height: 27.438rem;
 }
@@ -10,9 +9,9 @@
     justify-content: center;
     width: 18.25rem;
     height: 20.063rem;
-    border: 1px solid black;
     background-color: #f8f4f4;
     border-radius: 0.25rem;
+    padding: 1.25rem;
 }
 
 .box-card-image img {
@@ -27,6 +26,7 @@
 }
 
 .category-content {
+    margin: 1.125rem 0 0 0;
     height: 1.5rem;
     font-family: 'Inter';
     font-weight: 700;
