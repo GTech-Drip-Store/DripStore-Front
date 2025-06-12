@@ -1,5 +1,23 @@
-.title-content{
+.box-title{
     width: 77.5rem;
     height: 2.375rem;
     flex-direction: row;
+    margin: 7.688rem 6.25rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25rem;
+    cursor: pointer;
+}
+
+.link-content img {
+    width: 1rem;
+    height: 1rem;
+    object-fit: contain;
 }
