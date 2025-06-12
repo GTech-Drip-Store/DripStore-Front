@@ -1,82 +1,73 @@
-quero que você deixe o .informações e o  .categorias lado a lado nesse css 
 
-#footer {
-    align-items: center;
-    background-color: #1f1f1f;
-    color: white;
+/* Container principal */
+#box-footer {
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 60px 80px;
+  font-family: 'Inter', sans-serif;
+  gap: 40px;
 }
 
-.box-footer {
-    align-items: center;
-    background-color: #1f1f1f;
-    color: white;
-    border: 1px solid red;
-    width: 100%;
-    min-height: 28.375rem;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-}
-
+/* Bloco com logo e redes sociais */
 .logo-footer {
-    width: 100%;
-    margin-left: 6.375rem;
-    margin-top: 4.5rem;
-    font-size: 2.275rem;
-    font-weight: 600;
-    flex-direction: column;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.logo-footer h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.logo-footer p {
+  font-size: 1rem;
+  color: #cfcfcf;
+  line-height: 1.5;
 }
 
 .logo-footer img {
-    display: inline-block;
-    margin-top: 2.5rem;
-    margin-right: 1.15rem;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  cursor: pointer;
 }
 
-.teste {
-    font-size: 1rem;
-    line-height:1rem ;
-    font-weight: 400;
-    color: aliceblue;
-    margin-top: 2.188rem;
+.redes-sociais {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
 }
 
-
-.informacoes{
-    font-family: 'Inter', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-left:38.25rem;
-    margin-top:7.625rem;
-    margin-right:43.313rem ;
-    margin-bottom:21rem ;
+/* Coluna genérica (informações, categorias, contato) */
+.informacoes,
+.categorias,
+.contatos {
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
 }
 
-.informacoes #titulo-informacao{
-    margin-bottom: 1.75rem;
+#titulo-informacao,
+#titulo-categoria,
+#titulo-contato {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 16px;
 }
 
-
-.categorias{
-    font-family: 'Inter', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-left:53.063rem ;
-    margin-top:4.5rem ;
-    margin-right: 30.938rem;
-    margin-bottom: 22rem;
+.informacoes p,
+.categorias p,
+.contatos p {
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #cfcfcf;
+  margin-bottom: 8px;
 }
 
-.categorias #titulo-categoria{
-   margin-bottom: 1.75rem;
-}
-
-.contatos{
-    font-family: 'Inter', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-left: 69.563rem;
-    margin-top: 4.5rem;
-    margin-right:16rem ;
-    margin-bottom:22.5rem ;
-}
