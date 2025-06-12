@@ -13,7 +13,6 @@ export const Footer = () => {
       <img src="/twitter.svg" alt="Twitter" />
     </div>
   </div>
-
   <div className="informacoes">
     <p id="titulo-informacao">Informação</p>
     <p>Segurança</p>
