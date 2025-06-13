@@ -11,7 +11,6 @@ export const Inicio = () => {
       <CardColletion />
       <IconColletion />
       <ProductGrid />
-      <Footer />
     </>
 
   );
