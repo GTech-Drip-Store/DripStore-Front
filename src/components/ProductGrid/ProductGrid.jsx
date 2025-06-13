@@ -59,6 +59,7 @@ export const ProductGrid = () => {
                     />
                 </div>
 
+
                 <div className='items-bottom'>
                     <Product
                         imageUrl={'../../src/assets/airjordan.png'}
