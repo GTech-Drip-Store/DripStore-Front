@@ -18,6 +18,8 @@ export const Footer = () => {
   </div>
 </div>
 
+
+
   <div className="informacoes">
     <p id="titulo-informacao">Informação</p>
         <Useful value={'Segurança'} color={'white'}> </Useful>
@@ -29,7 +31,7 @@ export const Footer = () => {
 
 
   <div className="categorias">
-    <p id="titulo-categoria"></p>
+    <p id="titulo-categoria">Categorias</p>
     <Useful value={'Camisetas'} color={'white'}></Useful>
     <Useful value={'Bonés'} color={'white'}></Useful>
     <Useful value={'Headphones'} color={'white'}></Useful>
