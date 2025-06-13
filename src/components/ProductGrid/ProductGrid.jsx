@@ -35,7 +35,7 @@ export const ProductGrid = () => {
                     <Product
                         hasDiscount={true}
                         valueDiscount={'50% OFF'}
-                        imageUrl={'../../src/assets/tenis.png'}
+                        imageUrl={'../../src/assets/supremeClothe.png'}
                         categoryValue={'Camisas'}
                         titleValue={'Oversized Supreme'}
                         priceOld={'R$129,99'}
@@ -44,16 +44,16 @@ export const ProductGrid = () => {
                     <Product
                         hasDiscount={true}
                         valueDiscount={'30% OFF'}
-                        imageUrl={'../../src/assets/tenis.png'}
+                        imageUrl={'../../src/assets/orangeHeadphone.png'}
                         categoryValue={'Fones de ouvido'}
                         titleValue={'Headphone V1'}
                         priceOld={'R$80'}
                         priceNew={'R$49,99'}
                     />
                     <Product
-                        imageUrl={'../../src/assets/tenis.png'}
+                        imageUrl={'../../src/assets/blackCap.png'}
                         categoryValue={'Chapéus'}
-                        titleValue={'Boné Nike Night'}
+                        titleValue={'Boné Nike Night Cap'}
                         priceOld={'R$180,45'}
                         priceNew={'R$99,99'}
                     />
@@ -61,30 +61,30 @@ export const ProductGrid = () => {
 
                 <div className='items-bottom'>
                     <Product
-                        imageUrl={'../../src/assets/tenis.png'}
+                        imageUrl={'../../src/assets/airjordan.png'}
                         categoryValue={'Tênis'}
-                        titleValue={'K-Swiss V8 - Masculino'}
+                        titleValue={'Airjordan - Masculino'}
                         priceOld={'R$400'}
                         priceNew={'R$59,99'}
                     />
                     <Product
-                        imageUrl={'../../src/assets/tenis.png'}
+                        imageUrl={'../../src/assets/supremeHoodie.png'}
                         categoryValue={'Camisas'}
-                        titleValue={'Oversized Supreme'}
+                        titleValue={'Moletom Supreme'}
                         priceOld={'R$129,99'}
                         priceNew={'R$99,99'}
                     />
                     <Product
-                        imageUrl={'../../src/assets/tenis.png'}
+                        imageUrl={'../../src/assets/blueHeadphone.png'}
                         categoryValue={'Fones de ouvido'}
-                        titleValue={'Headphone V1'}
+                        titleValue={'Headphone wireless V2'}
                         priceOld={'R$80'}
                         priceNew={'R$49,99'}
                     />
                     <Product
-                        imageUrl={'../../src/assets/tenis.png'}
+                        imageUrl={'../../src/assets/redCap.png'}
                         categoryValue={'Chapéus'}
-                        titleValue={'Boné Nike Night'}
+                        titleValue={'Boné Nike Full Cap Red'}
                         priceOld={'R$180,45'}
                         priceNew={'R$99,99'}
                     />
