@@ -3,15 +3,40 @@
     height: 27.438rem;
 }
 
-.box-card-image {
+.badge-discount {
     display: flex;
+    justify-content: center;
     align-items: center;
+    border-radius: 1.875rem;
+    font-family: 'Inter';
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    letter-spacing: 0.047rem;
+    width: 6rem;
+    height: 2rem;
+    margin: 1.25rem 0 0 1.75rem ;
+    position: absolute;
+    background-color: #E7FF86;
+}
+
+.box-card-image-grid img{
+    margin: 1.5rem 0 0 0;
+}
+
+.box-card-image-grid {
+    position: relative;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 18.25rem;
     height: 20.063rem;
-    background-color: #f8f4f4;
     border-radius: 0.25rem;
-    padding: 2.25rem;
+    padding: 1.75rem;
+}
+
+.box-card-image {
+    background-color: #f8f4f4;
 }
 
 .box-card-image img {

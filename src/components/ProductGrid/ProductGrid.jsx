@@ -24,6 +24,8 @@ export const ProductGrid = () => {
             <div className='box-grid-items'>
                 <div className='items-top'>
                     <Product
+                        hasDiscount={true}
+                        valueDiscount={'20% OFF'}
                         imageUrl={'../../src/assets/tenis.png'}
                         categoryValue={'Tênis'}
                         titleValue={'K-Swiss V8 - Masculino'}
@@ -31,6 +33,8 @@ export const ProductGrid = () => {
                         priceNew={'R$59,99'}
                     />
                     <Product
+                        hasDiscount={true}
+                        valueDiscount={'50% OFF'}
                         imageUrl={'../../src/assets/tenis.png'}
                         categoryValue={'Camisas'}
                         titleValue={'Oversized Supreme'}
@@ -38,6 +42,8 @@ export const ProductGrid = () => {
                         priceNew={'R$99,99'}
                     />
                     <Product
+                        hasDiscount={true}
+                        valueDiscount={'30% OFF'}
                         imageUrl={'../../src/assets/tenis.png'}
                         categoryValue={'Fones de ouvido'}
                         titleValue={'Headphone V1'}

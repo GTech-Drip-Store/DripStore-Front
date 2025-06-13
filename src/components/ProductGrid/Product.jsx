@@ -1,10 +1,14 @@
 import './Product.css';
 
-export const Product = ({imageUrl, categoryValue, titleValue, priceOld, priceNew}) => {
-    return(
+export const Product = ({ imageUrl, categoryValue, titleValue, priceOld, priceNew, hasDiscount, valueDiscount }) => {
+    return (
         <div className='box-card'>
             <div className='box-card-image'>
-                <img src={imageUrl} alt={titleValue} />
+                {hasDiscount && <span className='badge-discount'>{valueDiscount}</span>}
+
+                <div className='box-card-image-grid'>
+                    <img src={imageUrl} alt={titleValue} />
+                </div>
             </div>
 
             <div className='box-card-content'>
