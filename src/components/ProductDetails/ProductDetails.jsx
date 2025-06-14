@@ -1,5 +1,6 @@
 import './ProductDetails.css'
 import { Title } from '../Title/Title';
+import { SizeItems } from '../SizeItems/SizeItems';
 
 export const ProductDetails = () => {
     return (
@@ -63,10 +64,23 @@ export const ProductDetails = () => {
 
                     <p className='box-product-description'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor
-                         incididunt ut labore et dolore magna aliqua.
+                        incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco.
 
                     </p>
+
+                    <div className='box-size-product'>
+                        <Title
+                            width={'0.625rem'}
+                            height={'1.375rem'}
+                            fontSize={'0.875rem'}
+                        >Tamanho</Title>
+
+                        <div className='box-size'> 
+                            <SizeItems>39</SizeItems>
+                        </div>
+                    </div>
+
 
 
                 </div>
