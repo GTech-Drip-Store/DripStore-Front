@@ -51,6 +51,23 @@ export const ProductDetails = () => {
                         <p className='old-price'>229,00</p>
                     </div>
 
+                    <Title
+                        width={'10.125'}
+                        height={'1.375'}
+                        margin={'1.25rem 0 0 0'}
+                        color={'#8F8F8F'}
+                        fontSize={'0.875rem'}
+                        lineHeight={'1.375rem'}
+                        letterSpacing={'0.047rem'}
+                    >Descrição do produto</Title>
+
+                    <p className='box-product-description'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor
+                         incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+
+                    </p>
+
 
                 </div>
             </div>
