@@ -34,12 +34,23 @@ export const ProductDetails = () => {
 
                         <div className='box-rating-avaliations'>
                             <div className='box-star'>
-                                
+                                <p className='info-number'>4.6</p>
+                                <img src="../../src/assets/icons/Star.png" alt="" />
                             </div>
-
                             <p className='info-avaliations'>(90 avaliações )</p>
                         </div>
                     </div>
+
+
+                    <div className='box-price-exibition'>
+                        <p className='box-simbol-price'>R$</p>
+                        <p className='info-price'>
+                            <span className='price-integer'>219</span>
+                            <span className='price-decimal'>,00</span>
+                        </p>
+                        <p className='old-price'>229,00</p>
+                    </div>
+
 
                 </div>
             </div>
