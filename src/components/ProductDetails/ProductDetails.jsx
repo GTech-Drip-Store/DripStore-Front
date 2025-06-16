@@ -107,6 +107,11 @@ export const ProductDetails = () => {
 
                 </div>
             </div>
+
+
+            <div className='box-selector-color-items'>
+
+            </div>
         </>
     );
 };
