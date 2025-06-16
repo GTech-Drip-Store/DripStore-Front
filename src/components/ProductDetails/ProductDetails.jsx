@@ -77,7 +77,7 @@ export const ProductDetails = () => {
                         >Tamanho</Title>
 
                         <div className='box-size'> 
-                            <SizeItems>39</SizeItems>
+                            <SizeItems/>
                         </div>
                     </div>
 
