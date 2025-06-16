@@ -13,6 +13,7 @@ export const Card = ({ discount, title, buttonText, image, bgColor, margin }) =>
         children={'Comprar'}
         margin={'1.25rem 0 0 0'}
         color={'#C92071'}
+        backgroundColor={'#F5F5F5'}
         />
       </div>
       <div className="card-right">

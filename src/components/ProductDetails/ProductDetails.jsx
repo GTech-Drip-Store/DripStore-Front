@@ -1,5 +1,6 @@
 import './ProductDetails.css'
 import { Title } from '../Title/Title';
+import { Button } from '../Button/Button';
 import { SizeItems } from '../SizeItems/SizeItems';
 import { ColorItems } from '../ColorItems/ColorItems';
 
@@ -91,6 +92,16 @@ export const ProductDetails = () => {
                         >Cor</Title>
                         <ColorItems />
                     </div>
+
+                    <Button
+                    width={'13.75rem'}
+                    height={'3rem'}
+                    margin={'1.688rem 0 0 0'}
+                    color={'#F5F5F5'}
+                    backgroundColor={'#FFB31F'}
+
+                    
+                    >Comprar</Button>
 
 
 
