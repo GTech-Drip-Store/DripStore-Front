@@ -1,6 +1,7 @@
 import './ProductDetails.css'
 import { Title } from '../Title/Title';
 import { SizeItems } from '../SizeItems/SizeItems';
+import { ColorItems } from '../ColorItems/ColorItems';
 
 export const ProductDetails = () => {
     return (
@@ -76,9 +77,19 @@ export const ProductDetails = () => {
                             fontSize={'0.875rem'}
                         >Tamanho</Title>
 
-                        <div className='box-size'> 
-                            <SizeItems/>
+                        <div className='box-size'>
+                            <SizeItems />
                         </div>
+                    </div>
+
+                    <div className='box-color-product'>
+
+                        <Title
+                            width={'0.625rem'}
+                            height={'1.375rem'}
+                            fontSize={'0.875rem'}
+                        >Cor</Title>
+                        <ColorItems />
                     </div>
 
 

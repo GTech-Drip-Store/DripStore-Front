@@ -1,0 +1,23 @@
+.color-selector-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.box-color-selector {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.box-color-selector:hover {
+  opacity: 0.8;
+}
+
+.box-color-selector.selected {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #C92071;
+}
