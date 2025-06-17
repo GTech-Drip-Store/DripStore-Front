@@ -16,12 +16,12 @@ export const OfertasGroup = () => {
                 <p className='label-ofertas'>ofertas especiais</p>
                 <h2 className='c'>Air jordan edição de colecionador</h2>
 
-                <p className='label-ofertas-descric'>Lorem ipsum dolor sit amet,consectetur elit,
+                <p className='label-ofertas-descricao'>Lorem ipsum dolor sit amet,consectetur elit,
                     sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam , quis  nostrud exercitation ullamco laboris
                     nisi ut aliquip
                 </p>
-                
+
                 <Button
                 width={'12.5rem'}
                 height={'2.5rem'}

@@ -6,12 +6,12 @@
 }
 
 .box-ofertas-image {
+    position: relative; /* Muito importante para o posicionamento absoluto do círculo */
     width: 35.813rem;
     height: 20.625rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(8, 0, 255);
     margin: 7.188rem 4.188rem 6.75rem 3.25rem;
 }
 
@@ -33,42 +33,38 @@
     margin-bottom: 1rem;
 }
 
-.title-ofertas-descrição {
+.title-ofertas-descricao {
     width: 32.125rem;
     height: 6.25rem;
     font-size: 3rem;
     border: 1px solid red;
-
 }
 
 .c {
     width: 32.125rem;
     height: 6.25rem;
     font-family: 'Inter';
-    width: 700;
+    font-weight: 700;
     font-size: 3rem;
     line-height: 3.125rem;
     letter-spacing: 0.063rem;
     margin-bottom: 0.75rem;
 }
 
-.label-ofertas {
-    color: #C92071
-}
-
 .eclips {
+    position: absolute;
     width: 29.125rem;
-    height: 29.125rem;
-    background-image: linear-gradient(#4200ff 10%, #FFFFFF 1% );
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 29.125rem;
+    background: radial-gradient(circle, rgba(38, 218, 254, 0.3) 50%, rgba(255, 255, 255, 0) 98%);
+    border-radius: 50%;
 }
 
 .eclips img {
     width: 35.813rem;
     height: 24.625rem;
-
-
+    position: relative;
+    z-index: 1;
 }
