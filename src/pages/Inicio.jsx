@@ -13,7 +13,6 @@ export const Inicio = () => {
       <IconColletion />
       <ProductGrid />
       <OfertasGroup/>
-      <Footer />
     </>
 
   );
