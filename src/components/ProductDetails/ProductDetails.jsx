@@ -4,6 +4,7 @@ import { Button } from '../Button/Button';
 import { SizeItems } from '../SizeItems/SizeItems';
 import { ColorItems } from '../ColorItems/ColorItems';
 import { MiniProduct } from '../MiniProduct/MiniProduct';
+import { RatingStars } from '../RatingStar/RatingStar';
 
 export const ProductDetails = () => {
     return (
@@ -33,7 +34,7 @@ export const ProductDetails = () => {
 
                     <div className='box-rating'>
                         <div className='box-star-rating'>
-
+                            <RatingStars rating={4}/>
                         </div>
 
                         <div className='box-rating-avaliations'>

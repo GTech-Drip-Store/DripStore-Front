@@ -1,0 +1,18 @@
+.rating-stars {
+    display: flex;
+    gap: 0.15rem;
+}
+
+.star {
+    font-size: 1.25rem;
+    color: #ddd;
+    width: 5.755rem;
+    height: 0.875rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.star.filled {
+    color: #FFB31F;
+}
