@@ -21,7 +21,6 @@ export const OfertasGroup = () => {
                     Ut enim ad minim veniam , quis  nostrud exercitation ullamco laboris
                     nisi ut aliquip
                 </p>
-
                 <Button
                 width={'12.5rem'}
                 height={'2.5rem'}
