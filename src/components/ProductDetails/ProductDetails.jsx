@@ -65,9 +65,9 @@ export const ProductDetails = () => {
                     >Descrição do produto</Title>
 
                     <p className='box-product-description'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                        Tênis Nike Air Force 1 Low branco com detalhes em vermelho, em couro premium e mesh respirável.
+                        Amortecimento Nike Air na entressola para conforto o dia todo.
+                        Sola de borracha vermelha com tração durável.
 
                     </p>
 

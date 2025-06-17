@@ -13,6 +13,7 @@ import { FinishBuy } from './FinishBuy/FinishBuy';
 
 
 
+
 export const App = () => {
   return (
     <BrowserRouter>
