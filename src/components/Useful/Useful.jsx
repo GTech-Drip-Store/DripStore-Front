@@ -10,16 +10,16 @@ export const Useful = ({ margin, color, textDecoration, to, value, target }) => 
       <Link
         style={{
           color: isActive ? '#C92071' : color,
-          textDecoration: textDecoration,
+          textDecoration: isActive ? 'underline' : textDecoration,
           fontWeight: isActive ? 'bold' : 'normal',
-          textDecoration: isActive ? 'underline' : 'none',
-          textUnderlineOffset: '0.125rem'
+          textUnderlineOffset: (isActive || textDecoration === 'underline') ? '0.125rem' : undefined
         }}
         to={to}
         target={target}
       >
         {value}
       </Link>
+
     </p>
   );
 };
