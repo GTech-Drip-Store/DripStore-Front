@@ -1,5 +1,46 @@
-.title-content{
+.box-title {
     width: 77.5rem;
     height: 2.375rem;
     flex-direction: row;
+    margin: 7.688rem auto 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25rem;
+    cursor: pointer;
+}
+
+.link-content img {
+    width: 1rem;
+    height: 1rem;
+    object-fit: contain;
+}
+
+.box-grid-items {
+    height: 57.375rem;
+    width: 77.5rem;
+    display: flex;
+    margin: 1.25rem auto;
+    flex-direction: column;
+}
+
+.items-top {
+    height: 27.438rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.items-bottom {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    height: 27.438rem;
+    margin: 2.5rem 0 0 0;
 }

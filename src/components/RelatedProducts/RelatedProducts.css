@@ -1,0 +1,19 @@
+.box-title-related {
+    width: 77.5rem;
+    height: 2.375rem;
+    flex-direction: row;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-product-related {
+    width: 77.5rem;
+    height: 27.438rem;
+    margin: 1.25rem auto 7.938rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
