@@ -1,6 +1,6 @@
-import './FinishBuy.css';
+import './Form.css';
 
-export const FinishBuy =() => {
+export const Form =() => {
   return (
     <div className="checkout-container">
       <form className="checkout-form">

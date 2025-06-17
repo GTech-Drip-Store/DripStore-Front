@@ -1,7 +1,7 @@
-import { FinishBuy } from "../components/FinishBuy/FinishBuy";
+import { Form } from "../components/Form/Form";
 
-export const FinishBuy = () => {
+export const Form = () => {
     return(
-        <FinishBuy/>
+        <Form/>
     );
 }

@@ -9,7 +9,7 @@ import { Footer } from './Footer/Footer';
 import { Product } from './ProductGrid/Product';
 import { ProductBuy } from './ProductBuy/ProductBuy';
 import { EfetuarPagamento } from '../pages/EfetuarPagamento';
-import { FinishBuy } from './FinishBuy/FinishBuy';
+import { Form } from './Form/Form';
 
 
 
@@ -22,7 +22,7 @@ export const App = () => {
         <Route path='/' element={<Inicio />} />
         <Route path='produtos' element={<Produtos />} />
         <Route path='efetuarPagamento' element={<EfetuarPagamento />} />
-        <Route path='formulario' element={<FinishBuy />} />
+        <Route path='formulario' element={<Form />} />
         <Route path='pedidos' element={<Pedidos />} />
         <Route path='ofertas' element={<Ofertas />} />
         <Route path='*' element={<NaoEncontrado/>} />

@@ -4,6 +4,7 @@ import { Useful } from '../Useful/Useful';
 import { Button } from '../Button/Button';
 import { SizeItems } from '../SizeItems/SizeItems';
 import { ColorItems } from '../ColorItems/ColorItems';
+import { MiniProduct } from '../MiniProduct/MiniProduct';
 
 export const ProductDetails = () => {
     return (
@@ -94,15 +95,18 @@ export const ProductDetails = () => {
                         <ColorItems />
                     </div>
 
-                    <Button
-                    width={'13.75rem'}
-                    height={'3rem'}
-                    margin={'1.688rem 0 0 0'}
-                    color={'#F5F5F5'}
-                    backgroundColor={'#FFB31F'}
 
-                    
+                   <a src='/form'> 
+                    <Button
+                        width={'13.75rem'}
+                        height={'3rem'}
+                        margin={'1.688rem 0 0 0'}
+                        color={'#F5F5F5'}
+                        backgroundColor={'#FFB31F'}
+                        to={''}
+                        
                     >Comprar</Button>
+                   </a>
 
 
 
@@ -111,7 +115,26 @@ export const ProductDetails = () => {
 
 
             <div className='box-selector-color-items'>
+                <MiniProduct
+                    margin={'0 1.749rem 0 0'}
+                    backgroundColor={'#E2E3FF'}
+                />
+                <MiniProduct
+                    margin={'0 1.749rem 0 0'}
+                    backgroundColor={'#FFE8BC'}
+                />
+                <MiniProduct
+                    margin={'0 1.749rem 0 0'}
+                    backgroundColor={'#FFC0BC'}
+                />
+                <MiniProduct
+                    margin={'0 1.749rem 0 0'}
+                    backgroundColor={'#DEC699'}
+                />
 
+                <MiniProduct
+                    backgroundColor={'#E8DFCF'}
+                />
             </div>
         </>
     );
