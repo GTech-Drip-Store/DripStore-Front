@@ -1,5 +1,6 @@
 import './ProductDetails.css'
 import { Title } from '../Title/Title';
+import { Useful } from '../Useful/Useful';
 import { Button } from '../Button/Button';
 import { SizeItems } from '../SizeItems/SizeItems';
 import { ColorItems } from '../ColorItems/ColorItems';
@@ -38,7 +39,7 @@ export const ProductDetails = () => {
                         <div className='box-rating-avaliations'>
                             <div className='box-star'>
                                 <p className='info-number'>4.6</p>
-                                <img src="../../src/assets/icons/Star.png" alt="" />
+                                <img src="" alt="" />
                             </div>
                             <p className='info-avaliations'>(90 avaliações )</p>
                         </div>
@@ -66,7 +67,7 @@ export const ProductDetails = () => {
 
                     <p className='box-product-description'>
                         Tênis Nike Air Force 1 Low branco com detalhes em vermelho, em couro premium e mesh respirável.
-                        Amortecimento Nike Air na entressola para conforto o dia todo.
+                        Amortecimento Nike Air na entressola para conforto o dia todo.
                         Sola de borracha vermelha com tração durável.
 
                     </p>
@@ -106,6 +107,11 @@ export const ProductDetails = () => {
 
 
                 </div>
+            </div>
+
+
+            <div className='box-selector-color-items'>
+
             </div>
         </>
     );

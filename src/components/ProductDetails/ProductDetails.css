@@ -173,3 +173,10 @@
 .box-color-product{
     margin: 0.625rem 0 0 0;
 }
+
+.box-selector-color-items{
+    width: 43.796rem;
+    height: 6rem;
+    border: 2px solid red;
+    margin: 0 0 0 ;
+}
