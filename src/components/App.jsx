@@ -11,6 +11,7 @@ import { Product } from './ProductGrid/Product';
 import { ProductBuy } from './ProductBuy/ProductBuy';
 import { EfetuarPagamento } from '../pages/EfetuarPagamento';
 import { Form } from './Form/Form';
+import { ManageCart } from './ManageCart/ManageCart';
 
 
 
@@ -24,7 +25,7 @@ export const App = () => {
         <Route path='produtos' element={<Produtos />} />
         <Route path='efetuarPagamento' element={<EfetuarPagamento />} />
         <Route path='formulario' element={<Form />} />
-        <Route path='pedidos' element={<Pedidos />} />
+        <Route path='pedidos' element={<ManageCart />} />
         <Route path='ofertas' element={<Ofertas />} />
         <Route path='*' element={<NaoEncontrado/>} />
       </Routes>

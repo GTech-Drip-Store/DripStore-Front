@@ -1,14 +1,14 @@
 import React from "react";
-import "./CartPage.css";
+import "./ManageCart.css";
 
-const CartPage = () => {
+export const ManageCart = () => {
   return (
     <div className="cart-page">
       <div className="cart-left">
         <h2>MEU CARRINHO</h2>
 
         <div className="cart-product">
-          <img src="https://via.placeholder.com/80x60" alt="Tênis" />
+          <img src="../../src/assets/smallshoe.svg" alt="Tênis" />
           <div className="product-details">
             <h4>Tênis Nike Revolution 6 Next Nature Masculino</h4>
             <p>Cor: <strong>Vermelho / Branco</strong></p>
@@ -69,4 +69,3 @@ const CartPage = () => {
   );
 };
 
-export default CartPage;
