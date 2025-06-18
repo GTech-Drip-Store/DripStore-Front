@@ -4,21 +4,22 @@
 
 .slide-content {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 6rem;
+  height: 42.563rem;
+  flex-direction: row;
   width: 100%;
-  height: 100%;
   background-color: #f9f9f9;
-  border-radius: 1rem;
   box-sizing: border-box;
 }
 
 .text-content {
-  max-width: 40%;
+  width: 31.875rem;
+  height: 22rem;
+  margin: 7.875rem 0 0 6.25rem;
 }
 
 .text-content h4 {
+  width: 17.5rem;
+  height: 1.5rem;
   font-family: 'Inter';
   font-weight: 700;
   color: #F6AA1C;
@@ -26,43 +27,40 @@
   margin-bottom: 0.5rem;
 }
 
-.text-content h2 {
-  font-size: 4rem;
-  font-weight: 800;
-  line-height: 1.2;
-  margin: 0.5rem 0;
-  color: #1F1F1F;
-  white-space: pre-line;
-}
-
 .text-content p {
-  font-family: 'Inter';
+  width: 30.938rem;
+  height: 4.25rem;
+  margin: 1.25rem 0 0 0;
   font-size: 1.125rem;
-  color: #555;
+  color: #474747;
+  line-height: 2.125rem;
+  letter-spacing: 0.047rem;
   font-weight: 400;
-  margin-bottom: 1.5rem;
 }
 
-.text-content button {
-  font-family: 'Inter';
-  background-color: #C92071;
-  color: #F5F5F5;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: 700;
+.image-content {
+  width: 35.844rem;
+  height: 31.975rem;
+  object-fit: contain;
+  overflow: visible;
 }
 
 .image-content img {
-  width: 45.844rem;
-  height: 26.975rem;
-  height: auto;
+  position: absolute;
+  top: 3rem;
+  left: 30rem;
+  width: 56.844rem;
+  height: 37.975rem;
   object-fit: contain;
-  transform: rotate(2deg);
+  transform: scale(1.1) rotate(-2deg);
 }
 
 .swiper-pagination-bullet-active {
   background-color: #C92071;
+}
+
+.box-simbol {
+  width: 8.75rem;
+  height: 8.75rem;
+  margin: 5rem 0 0 3.5rem;
 }

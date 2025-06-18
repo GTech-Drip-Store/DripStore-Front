@@ -52,7 +52,7 @@
 .card-image {
   position: absolute;
   right: -1.5rem;
-  bottom: -1rem;
+  bottom: -1.55rem;
   height: 12rem;
   object-fit: contain;
   transform: rotate(2deg);
