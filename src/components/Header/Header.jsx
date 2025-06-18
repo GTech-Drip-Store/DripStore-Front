@@ -41,6 +41,7 @@ export const Header = () => {
             gap={'2rem'}
             width={'26.438rem'}
             height={'1.813rem'}
+            margin={'0 0 0 0.3rem'}
           >
             <li>
               <Useful
