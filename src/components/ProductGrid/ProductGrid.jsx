@@ -3,6 +3,7 @@ import { Useful } from '../Useful/Useful';
 import { Product } from './Product';
 import './ProductGrid.css';
 
+
 export const ProductGrid = () => {
     return (
         <>
