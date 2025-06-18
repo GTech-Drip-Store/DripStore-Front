@@ -13,7 +13,7 @@ export default function Carousel() {
   const slides = [
     {
       title: 'Queima de estoque Nike',
-      description: 'Tênis com até 50% de desconto em toda linha Nike.',
+      description: 'Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.',
       image: nike,
     },
     {
