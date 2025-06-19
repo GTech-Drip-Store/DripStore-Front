@@ -17,6 +17,19 @@
   margin: 7.875rem 0 0 6.25rem;
 }
 
+.box-title-custom{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.box-title-custom img{
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  margin: 0 1.2rem 0.2rem 0;
+}
+
 .text-content h4 {
   width: 17.5rem;
   height: 1.5rem;

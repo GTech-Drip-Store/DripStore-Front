@@ -7,33 +7,38 @@ export default function Slide({ title, description, image }) {
             <div className="text-content">
                 <h4>Melhores ofertas personalizadas</h4>
 
-                <Title
-                width={'31.875rem'}
-                height={'8.25rem'}
-                margin={'1.25rem 0 0 0'}
-                display={'flex'}
-                fontSize={'4rem'}
-                color={'#1F1F1F'}
-                lineHeight={'4.125rem'}
-                fontWeight={'800'}
-                letterSpacing={'0.063rem'}
-                >{title}</Title>
+                <div className='box-title-custom'>
+                    <Title
+                        width={'31.875rem'}
+                        height={'8.25rem'}
+                        margin={'1.25rem 0 0 0'}
+                        display={'flex'}
+                        fontSize={'4rem'}
+                        color={'#1F1F1F'}
+                        lineHeight={'4.125rem'}
+                        fontWeight={'800'}
+                        letterSpacing={'0.063rem'}
+                    >{title}</Title>
+
+                    <img src="../../src/assets/icons/foguinho.png" />
+                </div>
+
 
                 <p>{description}</p>
 
                 <Button
-                width={'13.75rem'}
-                height={'3rem'}
-                margin={'2.5rem 0 0 0'}
-                color={'#F5F5F5'}
-                backgroundColor={'#C92071'}
+                    width={'13.75rem'}
+                    height={'3rem'}
+                    margin={'2.5rem 0 0 0'}
+                    color={'#F5F5F5'}
+                    backgroundColor={'#C92071'}
                 >Ver Ofertas</Button>
 
             </div>
             <div className="image-content">
 
                 <img src={image} alt={title} />
-                
+
             </div>
 
             <div className='box-simbol'>

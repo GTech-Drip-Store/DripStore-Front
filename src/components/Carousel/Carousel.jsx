@@ -17,18 +17,18 @@ export default function Carousel() {
       image: nike,
     },
     {
-      title: 'Queima de estoque Puma',
-      description: 'Chegou a nova coleção com tecnologia boost.',
+      title: 'Queima de estoque Nike',
+      description: 'Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.',
       image: nike,
     },
     {
-      title: 'Queima de estoque Adidas',
-      description: 'Estilo, conforto e preço baixo. Aproveite!',
+      title: 'Queima de estoque Nike',
+      description: 'Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.',
       image: nike,
     },
     {
-      title: 'Queima de estoque All Star',
-      description: 'Modelos clássicos com preços imperdíveis.',
+      title: 'Queima de estoque Nike',
+      description: 'Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.',
       image: nike,
     },
   ];
