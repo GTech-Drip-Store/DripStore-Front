@@ -1,5 +1,73 @@
-.Register{
+.Register {
     height: 52.688rem;
     width: 100%;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to bottom, #B9B9F1, #E3E3FF);
+}
+
+.box-register-data {
+    width: 36.438rem;
+    height: 24.938rem;
+    margin: 7.5rem 0 0 6.5rem;
+    background-color: #FFFFFF;
+    border-radius: 0.25rem;
+}
+
+.box-have-acount {
+    width: 32.688rem;
+    height: 1.75rem;
+    display: flex;
+    flex-direction: row;
+    margin: 1.25rem 0 0 1.875rem;
+}
+
+.box-have-acount p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.047rem;
+    color: #474747;
+}
+
+.box-input-data {
+    width: 32.688rem;
+    height: 10.438rem;
+    margin: 1.25rem 0 0 1.875rem;
+}
+
+.box-input-data p {
+    width: 6.794rem;
+    height: 1.5rem;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.047rem;
+    color: #474747;
+}
+
+.box-others-login{
+    width: 32.688rem;
+    height: 1.75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:  1.875rem 0 0 1.875rem;
+}
+
+.box-others-login p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.063rem;
+    color: #474747;
+}
+
+.box-others-login img{
+    margin-left: 1.25rem;
 }
