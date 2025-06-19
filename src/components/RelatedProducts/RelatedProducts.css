@@ -2,7 +2,7 @@
     width: 77.5rem;
     height: 2.375rem;
     flex-direction: row;
-    margin: 5rem auto;
+    margin: 5rem 6.5rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,7 +11,7 @@
 .box-product-related {
     width: 77.5rem;
     height: 27.438rem;
-    margin: 1.25rem auto 7.938rem;
+    margin: 1.25rem 6.5rem 7.938rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
