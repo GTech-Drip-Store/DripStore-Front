@@ -19,7 +19,16 @@
 .Carrosel {
     width: 43.796rem;
     height: 35.688rem;
-    background-color: rgb(43, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E2E3FF;
+}
+
+.Carrosel img{
+    width: 36.151rem;
+    height: 20.5rem;
+    object-fit: contain;
 }
 
 .box-product-information {

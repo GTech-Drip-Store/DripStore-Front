@@ -16,7 +16,7 @@ export const ProductDetails = () => {
 
             <div className='box-product-details'>
                 <div className='Carrosel'>
-
+                    <img src="../../src/assets/airjordan.png" />
                 </div>
 
                 <div className='box-product-information'>
