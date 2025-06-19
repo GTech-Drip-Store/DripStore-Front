@@ -6,10 +6,9 @@ import { Pedidos } from '../pages/Pedidos';
 import { Ofertas } from '../pages/Ofertas';
 import { NaoEncontrado } from '../pages/NaoEncontrado';
 import { Footer } from './Footer/Footer';
-import { Product } from './ProductGrid/Product';
-import { ProductBuy } from './ProductBuy/ProductBuy';
 import { EfetuarPagamento } from '../pages/EfetuarPagamento';
 import { FinishBuy } from './FinishBuy/FinishBuy';
+import { Cadastro } from '../pages/Cadastro';
 
 
 
@@ -24,6 +23,7 @@ export const App = () => {
         <Route path='formulario' element={<FinishBuy />} />
         <Route path='pedidos' element={<Pedidos />} />
         <Route path='ofertas' element={<Ofertas />} />
+        <Route path='cadastro' element={<Cadastro />}/>
         <Route path='*' element={<NaoEncontrado/>} />
       </Routes>
       <Footer/>
