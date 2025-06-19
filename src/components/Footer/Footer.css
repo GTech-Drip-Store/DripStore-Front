@@ -24,8 +24,10 @@
 
 /* Bloco com logo e redes sociais */
 .logo-footer {
+  margin-left: 1.55rem;
   max-width: 280px;
   display: flex;
+  border: 1px solid red;
   flex-direction: column;
   gap: 12px;
 }
