@@ -2,7 +2,7 @@
     width: 77.5rem;
     height: 2.375rem;
     flex-direction: row;
-    margin: 7.688rem auto 1.25rem;
+    margin: 7.688rem 6.5rem 1.25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,7 @@
     height: 57.375rem;
     width: 77.5rem;
     display: flex;
-    margin: 1.25rem auto;
+    margin: 1.25rem 6.5rem 0;
     flex-direction: column;
 }
 
