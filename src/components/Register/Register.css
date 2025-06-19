@@ -71,3 +71,18 @@
 .box-others-login img{
     margin-left: 1.25rem;
 }
+
+
+.image-front{
+    width: 21rem;
+    height: 35.187rem;
+    margin: 2rem 0 0 2.75rem;
+    object-fit: contain;
+}
+
+.image-back{
+    width: 26rem;
+    height: 40.187rem;
+    margin: 11.75rem 0 0 -6rem;
+    object-fit: contain;
+}

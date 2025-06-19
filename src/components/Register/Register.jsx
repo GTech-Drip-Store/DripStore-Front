@@ -56,6 +56,15 @@ export const Register = () => {
 
 
             </div>
+
+            <div className='box-image-front'>
+                <img className='image-front' src="../../src/assets/TenisFrenteCad.png" />
+            </div>
+
+            <img className='image-back' src="../../src/assets/TenisTrasCad.png" />
+
+
+
         </div>
     );
 };

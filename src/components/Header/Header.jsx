@@ -31,6 +31,7 @@ export const Header = () => {
           <Useful
             value={'Cadastre-se'}
             margin={'1.2rem 0 0 0'}
+            to={'/Cadastro'}
             color={'#474747'}
             href={'#'}
             textDecoration={'underline'}
