@@ -108,14 +108,3 @@
   font-weight: bold;
 }
 
-.summary-pay-btn {
-  margin-top: 20px;
-  width: 100%;
-  background: #ffae00;
-  border: none;
-  color: white;
-  padding: 12px;
-  font-weight: bold;
-  border-radius: 6px;
-  cursor: pointer;
-}

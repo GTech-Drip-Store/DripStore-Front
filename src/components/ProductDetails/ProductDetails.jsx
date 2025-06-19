@@ -101,6 +101,7 @@ export const ProductDetails = () => {
                         margin={'1.688rem 0 0 0'}
                         color={'#F5F5F5'}
                         backgroundColor={'#FFB31F'}
+                        to="/Formulario"
 
 
                     >Comprar</Button>

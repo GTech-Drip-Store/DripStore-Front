@@ -1,6 +1,7 @@
+import { Button } from '../Button/Button';
 import './FinishBuy.css';
 
-export const FinishBuy =() => {
+export const FinishBuy = () => {
   return (
     <div className="checkout-container">
       <form className="checkout-form">
@@ -62,7 +63,15 @@ export const FinishBuy =() => {
           <p>Descontos: <span>R$ 0,00</span></p>
           <p className="total-line">Total: <strong>R$ 219,00</strong></p>
         </div>
-        <button className="summary-pay-btn">Realizar Pagamento</button>
+
+        <Button
+          margin={'1.25rem 0 0 0'}
+          width={'100%'}
+          height={'3.125rem'}
+          backgroundColor={'#ffae00'}
+          color={'#FFFFF'}
+          to={'/efetuarPagamento'}
+        >Realizar Pagamento</Button>
       </aside>
     </div>
   );
