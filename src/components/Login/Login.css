@@ -6,14 +6,14 @@
     background: linear-gradient(to bottom, #B9B9F1, #E3E3FF);
 }
 
-.box-login-data {
+.login .box-login-data {
     width: 36.438rem;
     height: 35rem;
     margin: 7.5rem 0 0 6.25rem;
     background-color: #FFFFFF;
 }
 
-.box-no-acount {
+.login .box-no-acount {
     width: 32.688rem;
     height: 1.75rem;
     display: flex;
@@ -21,7 +21,7 @@
     margin: 1.25rem 0 0 1.875rem;
 }
 
-.box-no-acount p {
+.login .box-no-acount p {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 1rem;
@@ -30,7 +30,7 @@
     color: #474747;
 }
 
-.box-input-data p {
+.login .box-input-data p {
     width: 6.794rem;
     height: 1.5rem;
     font-family: 'Inter';
@@ -43,7 +43,7 @@
     color: #474747;
 }
 
-.second-label {
+.login .second-label {
     width: 6.794rem;
     height: 1.5rem;
     font-family: 'Inter';
@@ -56,9 +56,7 @@
     color: #474747;
 }
 
-
-
-.box-others-login {
+.login .box-others-login {
     width: 32.688rem;
     height: 1.75rem;
     display: flex;
@@ -68,7 +66,7 @@
     margin: 1.25rem 0 0 0;
 }
 
-.box-others-login p {
+.login .box-others-login p {
     font-family: 'Inter';
     white-space: nowrap;
     text-align: center;
@@ -81,18 +79,18 @@
     color: #474747;
 }
 
-.box-others-login img {
+.login .box-others-login img {
     margin-left: 1.25rem;
 }
 
-.image-front{
+.login .image-front {
     width: 21rem;
     height: 35.187rem;
     margin: 2rem 0 0 2.75rem;
     object-fit: contain;
 }
 
-.image-back{
+.login .image-back {
     width: 26rem;
     height: 40.187rem;
     margin: 11.75rem 0 0 -6rem;
