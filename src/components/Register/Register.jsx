@@ -25,6 +25,7 @@ export const Register = () => {
                         value={'aqui.'}
                         margin={'0 0 0 0.25rem'}
                         color={'#474747'}
+                        to={'/Login'}
                         textDecoration={'underline'}
                     />
                 </div>

@@ -78,6 +78,7 @@ export const Header = () => {
           width={'7.125rem'}
           height={'2.5rem'}
           margin={'2.75rem 0 0 1.875rem'}
+          to={'/Login'}
         >Entrar</Button>
         <ShopCart value={cart.length} />
       </div>
