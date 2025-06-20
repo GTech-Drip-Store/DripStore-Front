@@ -9,6 +9,7 @@ import { Footer } from './Footer/Footer';
 import { EfetuarPagamento } from '../pages/EfetuarPagamento';
 import { FinishBuy } from './FinishBuy/FinishBuy';
 import { Cadastro } from '../pages/Cadastro';
+import { Entrar } from '../pages/Entrar';
 
 
 
@@ -23,10 +24,11 @@ export const App = () => {
         <Route path='formulario' element={<FinishBuy />} />
         <Route path='pedidos' element={<Pedidos />} />
         <Route path='ofertas' element={<Ofertas />} />
-        <Route path='cadastro' element={<Cadastro />}/>
-        <Route path='*' element={<NaoEncontrado/>} />
+        <Route path='cadastro' element={<Cadastro />} />
+        <Route path='login' element={<Entrar />} />
+        <Route path='*' element={<NaoEncontrado />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }
